@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.sunny.wheelnumberpicker.MainActivity">
+
+    <com.sunny.wheelnumberpicker.lib.WheelNumberPicker
+        android:id="@+id/picker"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:textColor="#f44110"
+        android:textSize="40sp"
+        app:bigCircleColor="#12da7d"
+        app:blockSize="2"
+        app:indicatorColor="#86ffffff"
+        app:initialNumber="20"
+        app:maxNumber="100"
+        app:minNumber="10"
+        app:numOfBlocks="15"
+        app:ringWidth="20dp"
+        app:smallCircleColor="#86ffffff"
+        app:unitText="days"
+        app:unitTextSize="20sp" />
+
+</LinearLayout>

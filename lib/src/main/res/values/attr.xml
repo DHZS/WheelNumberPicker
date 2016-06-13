@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WheelNumberPicker">
+        <attr name="bigCircleColor" format="color" />
+        <attr name="smallCircleColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="numOfBlocks" format="integer" />
+        <attr name="blockSize" format="float" />
+        <attr name="initialNumber" format="float" />
+        <attr name="minNumber" format="float" />
+        <attr name="maxNumber" format="float" />
+        <attr name="unitText" format="string" />
+        <attr name="unitTextSize" format="dimension" />
+    </declare-styleable>
+
+</resources>
